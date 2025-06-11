@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-!32a69tae8))r!t$dedb45h2ca&g7mx8)m^&zs)ajnyq2*kb^$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["Ecowheel.onrender.com"]
+ALLOWED_HOSTS = ["ecowheel-backend-t4al.onrender.com"]
 
 
 # Application definition
