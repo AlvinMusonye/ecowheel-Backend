@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-!32a69tae8))r!t$dedb45h2ca&g7mx8)m^&zs)ajnyq2*kb^$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://ecowheel-backend-t4al.onrender.com","https://ecowheel-1hks.vercel.app","127.0.0.1:8000","127.0.0.1","localhost"]
+ALLOWED_HOSTS = ["ecowheel-backend-t4al.onrender.com","ecowheel-1hks.vercel.app","127.0.0.1:8000","127.0.0.1","localhost"]
 
 
 # Application definition
@@ -228,6 +228,20 @@ CORS_ALLOW_HEADERS = [
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 CSRF_TRUSTED_ORIGINS = ['https://ecowheel-backend-t4al.onrender.com']
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'root': {
+        'handlers': ['console'],
+        'level': 'DEBUG',
+    },
+}
 
 
 
