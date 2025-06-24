@@ -28,9 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!32a69tae8))r!t$dedb45h2ca&g7mx8)m^&zs)ajnyq2*kb^$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["ecowheel-backend-t4al.onrender.com"]
+ALLOWED_HOSTS = ["https://ecowheel-backend-t4al.onrender.com","https://ecowheel-1hks.vercel.app","127.0.0.1:8000","127.0.0.1","localhost"]
 
 
 # Application definition
