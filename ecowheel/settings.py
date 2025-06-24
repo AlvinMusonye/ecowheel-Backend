@@ -227,6 +227,7 @@ CORS_ALLOW_HEADERS = [
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+CSRF_TRUSTED_ORIGINS = ['https://ecowheel-backend-t4al.onrender.com']
 
 
 
