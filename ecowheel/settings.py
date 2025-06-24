@@ -110,7 +110,7 @@ else:
     DATABASES = {
         'default': dj_database_url.config(
             # Replace this value with your local database's connection string.
-            default='postgresql://postgres:postgres@localhost:5432/mysite',
+            default='postgresql://ecowheel_database_user:tA8oRinU9b3AAx1LH4nORT6dwfqMNcPQ@dpg-d1d7fjbe5dus73b2vrp0-a/ecowheel_database',
             conn_max_age=600
         )
     }
